@@ -1,0 +1,35 @@
+<p>Mi componente de suma de edades</p>
+
+<input type="number" [(ngModel)]="edad1" placeholder="Ingrese su edad1" />
+<br>
+<br>
+
+
+<input type="number" [(ngModel)]="edad2" placeholder="Ingrese su edad2" />
+<br>
+<br>
+
+<button (click)="calcular()">Calcular</button>
+<br>
+<br>
+
+
+@if (resultado() > 10) {
+
+<h1>Resultado mayor que 10: </h1>
+{{ resultado() }}
+
+}
+@else if (resultado() <= 10  && resultado() !==0) {
+
+<h1 class="miclase">Resultado menor que 10: </h1>
+{{ resultado() }}
+
+}
+
+@for (item of arreglo(); track $index) {
+    {{ item }}
+}
+
+
+

@@ -1,0 +1,31 @@
+.sobre-page {
+	width: min(92%, 920px);
+	margin: 1.5rem auto;
+	padding: 2rem;
+	border-radius: 20px;
+	background:
+		linear-gradient(120deg, #f7f1ff 0%, #efe5ff 100%);
+	border: 1px solid #ddcef9;
+	color: #31165e;
+}
+
+.sobre-page h1 {
+	margin: 0;
+	font-size: clamp(1.7rem, 2.3vw, 2.2rem);
+}
+
+.sobre-page p {
+	margin: 0.7rem 0 1.2rem;
+	color: #56348f;
+	max-width: 62ch;
+}
+
+.sobre-page button {
+	border: none;
+	border-radius: 10px;
+	background-color: #6f3cc3;
+	color: #fff;
+	padding: 0.55rem 1rem;
+	font-weight: 600;
+	cursor: pointer;
+}

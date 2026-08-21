@@ -1,0 +1,27 @@
+.error-page {
+	width: min(92%, 820px);
+	margin: 1.5rem auto;
+	padding: 1.6rem;
+	border-radius: 16px;
+	border: 1px solid #f5c4c4;
+	background: linear-gradient(135deg, #fff3f3 0%, #ffe8e8 100%);
+	color: #7d1f1f;
+}
+
+.error-page h1 {
+	margin: 0;
+}
+
+.error-page p {
+	margin: 0.7rem 0 1.2rem;
+}
+
+.error-page button {
+	border: none;
+	border-radius: 10px;
+	background-color: #cf3030;
+	color: #fff;
+	padding: 0.55rem 1rem;
+	font-weight: 600;
+	cursor: pointer;
+}

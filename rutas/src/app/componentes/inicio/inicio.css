@@ -1,0 +1,31 @@
+.inicio-page {
+	width: min(92%, 920px);
+	margin: 1.5rem auto;
+	padding: 2rem;
+	border-radius: 20px;
+	color: #0f2a36;
+	background:
+		radial-gradient(circle at 10% 20%, rgba(120, 208, 255, 0.35), transparent 45%),
+		linear-gradient(160deg, #ecfbff 0%, #dbf3fa 100%);
+	border: 1px solid #b8dfeb;
+}
+
+.inicio-page h1 {
+	margin: 0;
+	font-size: clamp(1.8rem, 2.6vw, 2.4rem);
+}
+
+.inicio-page p {
+	margin: 0.6rem 0 1.2rem;
+	color: #285264;
+}
+
+.inicio-page button {
+	border: none;
+	border-radius: 10px;
+	background-color: #1179a8;
+	color: #fff;
+	padding: 0.55rem 1rem;
+	font-weight: 600;
+	cursor: pointer;
+}
